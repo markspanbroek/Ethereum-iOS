@@ -1,0 +1,6 @@
+language: objective-c
+osx_image: xcode7.3
+script:
+  - git clone https://github.com/ethereum/go-ethereum
+  - cd go-ethereum
+  - make geth-ios
