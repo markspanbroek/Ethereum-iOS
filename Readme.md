@@ -1,5 +1,6 @@
 Experimental Ethereum builds for iOS
 ------------------------------------
+[![Build Status](https://travis-ci.org/markspanbroek/Ethereum-iOS.svg?branch=master)](https://travis-ci.org/markspanbroek/Ethereum-iOS)
 
 These are unofficial and experimental builds of Ethereum Go for iOS. You can download the [latest build here][1].
 
