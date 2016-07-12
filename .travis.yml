@@ -14,6 +14,7 @@ deploy:
   provider: releases
   api_key:
     secure: YT9bmy8lHwvTFODLAgmzMhtM/gdBdevso4YUs09KE3DqyJNEqOCDg5/J+lYaDQTDTusO6BsF7bQt3KvAlg0nF0V4YYrNr6vLoj32Xea42heu3+NPcawOPAz3mt5U+DP/EOqDcAoik1yyfTr7Bw584Rk/JFxWvqOaVbt9JmV0HfkhEKuhjAkl0LDnENej4hWYbLbZ/Ra4HIfSKbOtlNf32cY38F5efYj5tKtLLvGJgEB7svDPPP2V478+KDkguDtH0ONb+srpq49rrwiEhcJFGbyvhzyndxPmb2XTnaKXwjMMefRffQoKYZ8fBy+u9pLojb4P6V8gUJEnfI16u4lS+2wMUXoh8F3mpJP/UVbPrglOA03pTuz1w7/LFI5y6P6h51ZGwUAEr/cd9P/EkONgpYDp1f3h9B+aeRs18nX4JsJnv2reAJNqkWoZPk6NsSymharNvuFPdqspIDzJpPMoyZcj6XyN+P3ss6IOn3E1M6kvkRUbvG/rfAP753oGeVWPUxxqcIKD0GhDQkany/cUh4vVqGvb9s9cBkOgTU9/AZ6HVtw5CONEz9MuBiKNbAXFIm7h9cbQjHl3GcvIL+OAZgeW8Td3bZl/chQS89kIlEXfQ9vGLSEodkacrvZROK+7/DFtG3ZkSTh1cKYraZ8/vq4R22OcoMmcIAmrhx0rgX0=
+  skip_cleanup: true
   file: build/bin/geth-ios-7.0-framework
   on:
     tags: true
